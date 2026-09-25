@@ -91,4 +91,5 @@
     future_pm_prop
     binderfs_logs_stats
     vfio_device
+    proc_dt_firmware_android
   ))
