@@ -354,6 +354,7 @@ ro.boot.vendor.apex.    u:object_r:apexd_select_prop:s0
 apex.                   u:object_r:apex_ready_prop:s0 prefix bool
 
 bpf.progs_loaded        u:object_r:bpf_progs_loaded_prop:s0 exact bool
+ro.bpf.allow_32bit      u:object_r:bpf_allow_32bit_prop:s0 exact bool
 
 gsid.                   u:object_r:gsid_prop:s0
 ro.gsid.                u:object_r:gsid_prop:s0

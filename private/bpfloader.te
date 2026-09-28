@@ -35,6 +35,7 @@ allow bpfloader sysfs_fs_fuse_bpf:file r_file_perms;
 allow bpfloader proc_bpf:file rw_file_perms;
 
 set_prop(bpfloader, bpf_progs_loaded_prop)
+get_prop(bpfloader, bpf_allow_32bit_prop)
 
 allow bpfloader bpfloader_exec:file execute_no_trans;
 allow bpfloader bpfloader_platform_exec:file { execute execute_no_trans getattr map open read };
